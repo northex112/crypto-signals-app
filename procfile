@@ -1,1 +1,1 @@
-web: gunicorn working_reliable_app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+web: gunicorn working_reliable_app:app --bind 0.0.0.0:$PORT --timeout 120
